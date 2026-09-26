@@ -1,0 +1,63 @@
+/* HERO SECTION */
+
+.hero-section {
+    background-image: url("../images/main-images/auckland_city.webp");
+    padding: 0;
+    margin-top: 87px;
+}
+.hero-section-background-image-darkener-div {
+    background-color: #001326d1;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.hero-section-h2 {
+    color: #f5f5f1;
+}
+.hero-section-h1 {
+    color: #f5f5f1;
+}
+.hero-section-p {
+    color: #f5f5f1;
+}
+.hero-section-bottom-bar {
+    background-color: #fffc00;
+
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    right: 0;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.hero-benefit-bullet-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+.hero-benefit-bullet-icon {
+    width: 25px;
+    object-fit: cover;
+}
+.hero-benefit-bullet-text {
+    font-weight: bold;
+    font-size: 15px;
+    color: #001326;
+    opacity: 1;
+}
+
+/* SERVICES SECTION */
+
+/* WHY US SECTION */
+
+/* SERVICE AREA SECTION */
+
+/* CONTACT SECTION */
