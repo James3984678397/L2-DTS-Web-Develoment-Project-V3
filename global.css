@@ -1,0 +1,108 @@
+/* HEADER */
+
+header {
+    background-color: #001326;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-top-bar {
+    background-color: #fffc00;
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header-top-bar-contact-button {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    text-decoration: none;
+    opacity: 1;
+}
+.header-top-bar-contact-button-icon {
+    width: 15px;
+    object-fit: cover;
+    text-decoration: none;
+    opacity: 1;
+}
+.header-top-bar-contact-button-text {
+    color: #001326;
+    opacity: 1;
+    text-decoration: none;
+
+    transition: text-decoration 0.1s;
+}
+.header-top-bar-contact-button:hover .header-top-bar-contact-button-text { text-decoration: underline; }
+
+.header-main {
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header-logo {
+    width: 120px;
+    object-fit: cover;
+}
+.header-navigation-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+.header-navigation-button {
+    font-weight: bold;
+    font-size: 15px;
+    color: #fffc00;
+    text-decoration: none;
+    opacity: 1;
+
+    transition: text-decoration 0.1s;
+}
+.header-navigation-button:hover { text-decoration: underline; }
+.header-phone-call-button {
+    background-color: #fffc00;
+    border: none;
+    border-radius: 2px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+
+    transition: opacity 0.1s;
+}
+.header-phone-call-button:hover { opacity: 0.8; }
+.header-phone-call-button-phone-icon {
+    width: 15px;
+    object-fit: cover;
+}
+
+/* FOOTER */
+
+/* BREACRUMB SECTION*/
