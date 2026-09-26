@@ -89,6 +89,142 @@
 
 /* WHY US SECTION */
 
+.why-us-section {
+    background-color: #f5f5f1e9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 20px;
+}
+.why-us-section-two-column-layout-div {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    column-gap: 40px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.credibility-bullets-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.credibility-bullet-icon {
+    height: 25px;
+    object-fit: cover;
+    border: none;
+    border-radius: 2px;
+}
+
+.benefit-bullet-container-state-controls {
+    display: none;
+}
+.state {
+    display: none;
+}
+
+/* If X label is checked, display that state in the multi-state why-us box */
+
+.why-us-section-two-column-layout-div:has(#state-1:checked) .state-1 {
+    display: block;
+}
+.why-us-section-two-column-layout-div:has(#state-2:checked) .state-2 {
+    display: block;
+}
+.why-us-section-two-column-layout-div:has(#state-3:checked) .state-3 {
+    display: block;
+}
+.why-us-section-two-column-layout-div:has(#state-4:checked) .state-4 {
+    display: block;
+}
+.why-us-section-two-column-layout-div:has(#state-5:checked) .state-5 {
+    display: block;
+}
+
+/* Make the selected state's button full opacity */
+
+.why-us-section-two-column-layout-div:has(#state-one:checked)
+.benefit-bullet-state-label-button[for="state-one"] {
+    opacity: 1;
+}
+
+.why-us-section-two-column-layout-div:has(#state-two:checked)
+.benefit-bullet-state-label-button[for="state-two"] {
+    opacity: 1;
+}
+
+.why-us-section-two-column-layout-div:has(#state-three:checked)
+.benefit-bullet-state-label-button[for="state-three"] {
+    opacity: 1;
+}
+
+.why-us-section-two-column-layout-div:has(#state-four:checked)
+.benefit-bullet-state-label-button[for="state-four"] {
+    opacity: 1;
+}
+
+.why-us-section-two-column-layout-div:has(#state-five:checked)
+.benefit-bullet-state-label-button[for="state-five"] {
+    opacity: 1;
+}
+
+.benefit-bullet-state-buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.benefit-bullet-state-label-button {
+    background-color: transparent;
+    opacity: 0.3;
+
+    border-top: none;
+    border-bottom-width: 0.2px;
+    border-bottom: solid;
+    border-bottom-color: #001326;
+    border-left: none;
+    border-right: none;
+
+    padding-top: 0;
+    padding-bottom: 6px;
+    padding-left: 0;
+    padding-right: 0;
+
+    margin: 0;
+
+    font-family: 'Inter', 'Roboto', 'Google Sans', arial;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #001326;
+
+    transition: opacity 0.1s;
+}
+.benefit-bullet-state-label-button:hover { opacity: 1; }
+
+.benefit-bullet-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+}
+
+.benefit-bullet-div-display-image {
+    width: 100%;
+    object-fit: cover;
+    border: none;
+    border-radius: 2px;
+}
+.benefit-bullet-div-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border: none;
+    border-radius: 2px;
+}
+
 /* SERVICE AREA SECTION */
 
 /* CONTACT SECTION */
