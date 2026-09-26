@@ -67,6 +67,8 @@ a {
     display: flex;
     flex-direction: column;
     gap: 5px;
+
+    width: 190px;
 }
 .main-call-to-action-button {
     background-color: #fffc00;
@@ -94,4 +96,15 @@ a {
     font-weight: normal;
     font-size: 12px;
     opacity: 0.8;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
