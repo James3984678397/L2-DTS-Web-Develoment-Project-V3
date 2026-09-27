@@ -7,6 +7,7 @@ header {
     left: 8px;
     right: 8px;
     opacity: 1;
+    z-index: 1000;
 }
 
 .header-top-bar {
@@ -205,6 +206,13 @@ footer {
 .breadcrumb-section-text {
     color: #001326;
 }
+.breadcrumb-section-text-call-link {
+    text-decoration: none;
+    color: #001326;
+    opacity: 1;
+    transition: text-decoration, opacity 0.1s;
+}
+.breadcrumb-section-text-call-link:hover { text-decoration: underline; opacity: 1; }
 
 .breadcrumb-container {
     background-color: #001326;
