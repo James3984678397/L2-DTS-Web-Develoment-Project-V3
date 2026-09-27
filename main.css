@@ -61,18 +61,21 @@ p {
 a {
     font-weight: normal;
     font-size: 13px;
-    opacity: 0.8;
+    text-decoration: none;
 }
 
 .main-call-to-action-button-container {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    opacity: 1;
+    text-decoration: none;
 
     width: 190px;
 }
 .main-call-to-action-button {
     background-color: #fffc00;
+    opacity: 1;
     border: none;
     border-radius: 2px;
 
@@ -85,6 +88,7 @@ a {
     flex-direction: row;
     gap: 5px;
     align-items: center;
+    text-decoration: none;
 
     transition: opacity 0.1s;
 }
